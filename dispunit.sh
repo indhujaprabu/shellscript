@@ -5,13 +5,13 @@ then
 
 elif [ $a -eq 10 ]
 then
-        echo "unit as kiloogram"
+        echo "unit as tens"
 elif [ $a -eq 100 ]
 then
-        echo "unit as kilometer"
+        echo "unit as hundreds"
 elif [ $a -eq 1000 ]
 then
-        echo "unit as centimeter"
+        echo "unit as thousands"
 else
         echo "unit not found"
 fi
