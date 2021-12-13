@@ -1,12 +1,14 @@
 function myfunc()
 {
-    local  myresult=$((RANDOM%6+1))
-    echo "$myresult"
+    local  res=$((RANDOM%6+1))
+    echo "$res"
 }
 declare -A numbers
-for (( loop=1;loop<11;loop++ ))
+for (( i=1;i<11;i++ ))
 do
-	result=$(myfunc)
-	numbers[$loop]=$result
+	res=$(myfunc)
+	numbers[$i]=$res
+	echo "${numbers[@]}"
+
 done
-echo "${numbers[@]}"
+
