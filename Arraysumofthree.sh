@@ -1,8 +1,8 @@
 read -p "Enter first integer : " a
 read -p "Enter second integer : " b
 read -p "Enter third integer  : " c
-s=$(($a+$b+$c))
-echo
+s=$(($a+$b+$c)
+echo $s
 
 
 if [ $s -eq 0 ]
