@@ -43,6 +43,3 @@ prime $n
 echo
 
 pal $n
-© 2021 GitHub, Inc.
-Terms
-Privacy
